@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="contenedor">
+        <h2>Registrarse</h2>
+        <form id="registroForm">
+            <input type="text" id="nombreCompleto" placeholder="Nombre Completo" required>
+            <input type="email" id="correoUsuario" placeholder="Nombre de Usuario" required>
+            <div class="input-group">
+                <span>+591</span>
+                <input type="text" id="telefono" placeholder="Número de Teléfono" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="contrasena" placeholder="Contraseña" required>
+                <span class="contra" onclick="contra('contrasena')">👁️</span>
+            </div>
+            <button type="submit">Registrar</button>
+        </form>
+        <p id="mensaje"></p>
+        <p>si tienes una cuenta <a href="segundo.html">Inicia Sesión</a></p>
+       
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

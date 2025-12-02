@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+   
+    <div class="contenedor">
+        <h2>LOGIN</h2>
+        <form id="loginForm">
+            <input type="email" id="loginCorreo" placeholder="Nombre de Usuario" required>
+            <div class="input-group">
+                <input type="password" id="loginContrasena" placeholder="Contraseña" required>
+                <span class="contra" onclick="contra('loginContrasena')">👁️</span>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+        <p id="mensajeLogin"></p>
+        <p id="enlaceRecuperacion" style="display:none;"><a href="recuperacion.html">Recuperar Contraseña</a></p>
+        <p>¿No te Registraste? <a href="index.html">Regístrate</a></p>
+    </div>
+    
+    <script src="js.js"></script>
+<script src="index.html"></script> 
+</body>
+</html>
